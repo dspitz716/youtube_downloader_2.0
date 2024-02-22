@@ -45,24 +45,6 @@ async def getall(request: Request, uri: str):
         return RedirectResponse("/tryagain")
 
 
-# @app.get("/daudio/{abr}/{uri}")
-# async def download(request: Request, abr: str, uri: str):
-#     uri = uri.replace("|", "/")
-
-#     file_path = f"audio/"
-
-#     verify = check_video_url(uri)
-#     if verify == True:
-#         yt = YouTube(uri)
-#         aud = yt.streams.filter(
-#             only_audio=True, abr=abr).first().download(f"{file_path}/")
-
-#         # print(aud)
-#         return FileResponse(aud)
-#     else:
-#         return HTMLResponse("Internal Server error")
-
-
 @app.get("/daudio")
 async def download(request: Request, abr:str , uri:str):
     uri = request.query_params.get("uri")

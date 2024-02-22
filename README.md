@@ -1,7 +1,7 @@
 # git
 
-- `git clone https://github.com/Aman-k346/youd.git`
-- `git remote add origin https://github.com/Aman-k346/youd.git`
+- `git clone https://github.com/dspitz716/youtube_downloader_2.0.git`
+- `git remote add origin https://github.com/dspitz716/youtube_downloader_2.0.git`
 - `git branch -M main`
 - `git push -u origin main`
 
