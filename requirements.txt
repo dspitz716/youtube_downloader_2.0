@@ -2,3 +2,4 @@ pytube
 fastapi
 requests
 Jinja2
+uvicorn
