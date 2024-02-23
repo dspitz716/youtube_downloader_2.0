@@ -6,7 +6,7 @@ from modules import check_video_url
 from pytube import YouTube
 
 
-import os
+
 app = FastAPI(docs_url=None, redoc_url=None)
 
 app.mount("/static", StaticFiles(directory="static"), name="static")

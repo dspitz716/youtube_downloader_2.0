@@ -1,4 +1,4 @@
-pytube3
+pytube
 fastapi
 requests
 Jinja2
