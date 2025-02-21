@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from modules import check_video_url
-from pytube import YouTube
+from pytubefix import YouTube
 
 
 
